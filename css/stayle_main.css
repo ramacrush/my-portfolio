@@ -322,7 +322,7 @@ nav a:hover::before {
 
 .first-content .author-image img {
   margin-top: 15px;
-  border-radius: 30px;
+  border-radius: 30% 30% / 80% 80%;
   max-width: 100%;
   overflow: hidden;
   float: left;
@@ -374,7 +374,7 @@ nav a:hover::before {
   transition: all 0.5s;
   transition: all 0.5s;
 }
-
+/* FB */
 .first-content .fb-btn {
   display: inline-block;
 }
@@ -397,6 +397,51 @@ nav a:hover::before {
   background-color: transparent;
 }
 
+/* YT */
+.first-content .yt-btn {
+  display: inline-block;
+}
+
+.first-content .yt-btn a {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #232323;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.first-content .yt-btn a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+/* IG */
+.first-content .ig-btn {
+  display: inline-block;
+}
+
+.first-content .ig-btn a {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #232323;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.first-content .ig-btn a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
 .second-content .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
@@ -414,9 +459,17 @@ nav a:hover::before {
   float: right;
 }
 
+.figure-caption {
+  color: white;
+  font-size: large;
+  font-family: monospace;
+}
+
 .second-content .left-content {
   padding: 60px;
   text-align: left;
+  font-size: larger;
+  font-family: monospace;
 }
 
 .second-content h2 {
